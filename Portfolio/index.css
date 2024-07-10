@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #c5c5c5;
+    background: #666666;
+}
+
+header, footer {
+    background: #101010;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fce305;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+h2 {
+    color: #fce305;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.wrapper, .container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.intro-container, .about-content, .journey-content, .skills-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.projects-content, .cm-content {
+    color: #fff;
+}
+
+.intro-text, .about-content div {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.intro-text h1 {
+    font-size: 2.5em;
+}
+
+.intro-text h2, .about-content h3, .journey-content h3, .skills-content h3, .projects-content h4 {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.intro-text button, .about-content button{
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background: #fce305;
+    color: #000000;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.intro-text button:hover, .about-content button:hover{
+    background: #ffffff;
+}
+
+.intro-photo img {
+    max-width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.about-content p {
+    display: block;
+    overflow: hidden;
+    max-height: 5.6em;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.about-content p.expanded {
+    max-height: 1000px;
+}
+
+.journey-content, .skills-content {
+    justify-content: space-between;
+    text-align: left;
+}
+
+.journey-content ul, .skills-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.journey-content li, .skills-content li {
+    margin: 10px 0;
+}
+
+.skills-content span {
+    float: right;
+}
+
+a {
+    color: #fce305;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0011ff;
+}
